@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кофе и Точка</title>
+
+
+  <link rel="stylesheet" href="./assets/css/foodhub.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Monoton&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div class="container">
+
+   
+    <header>
+
+      <nav class="navbar">
+
+        <div class="navbar-wrapper">
+
+          <a href="#">
+            <img src="./assets/images/logo.png" alt="logo" width="130">
+          </a>
+
+          <ul class="navbar-nav">
+
+            <li>
+              <a href="#home" class="nav-link">Главная</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav-link">О нас</a>
+            </li>
+
+            <li>
+              <a href="#services" class="nav-link">Услуги</a>
+            </li>
+
+            <li>
+              <a href="#menu" class="nav-link">Меню</a>
+            </li>
+
+            <li>
+              <a href="#testimonials" class="nav-link">Отзывы</a>
+            </li>
+
+          </ul>
+
+          <div class="navbar-btn-group">
+
+            <button class="shopping-cart-btn">
+              <img src="./assets/images/cart.svg" alt="shopping cart icon" width="18">
+              <span class="count">5</span>
+            </button>
+
+            <button class="menu-toggle-btn">
+              <span class="line one"></span>
+              <span class="line two"></span>
+              <span class="line three"></span>
+            </button>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+      <div class="cart-box">
+
+        <ul class="cart-box-ul">
+
+          <h4 class="cart-h4">Ваш заказ.</h4>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/эспрессо.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Эспрессо</h5>
+              <p class="product-price">
+                <span class="small">₽</span>149
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/американо.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Американо</h5>
+              <p class="product-price">
+                <span class="small">₽</span>129
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/кортадо.png" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Лунго</h5>
+              <p class="product-price">
+                <span class="small">₽</span>185
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/лунго.png" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Ристретто</h5>
+              <p class="product-price">
+                <span class="small">₽</span>173
+              </p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="cart-item">
+              <div class="img-box">
+                <img src="./assets/images/ристретто.jpg" alt="product image" class="product-img" width="50" height="50"
+                  loading="lazy">
+              </div>
+
+              <h5 class="product-name">Флэт Уайт</h5>
+              <p class="product-price">
+                <span class="small">₽</span>157
+              </p>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="cart-btn-group">
+          <button class="btn btn-secondary">Посмотреть заказ</button>
+          <button class="btn btn-primary">Проверить</button>
+        </div>
+
+      </div>
+
+    </header>
+
+
+
+
+
+    <main>
+
+      <!--
+        - #главная
+      -->
+
+      <section class="home" id="home">
+
+        <div class="home-left">
+
+          <p class="home-subtext">Привет, новый друг!</p>
+
+          <h1 class="main-heading">Мы не делаем кофе, мы создаем эмоции!</h1>
+
+          <p class="home-text">
+            Мы подарим вам не просто напиток, а настоящий ритуал наслаждения.
+          </p>
+
+          <div class="btn-group">
+
+            <button class="btn btn-primary btn-icon">
+              <img src="./assets/images/menu.svg" alt="menu icon">
+              Полное Меню
+            </button>
+
+            <button class="btn btn-secondary btn-icon">
+              <img src="./assets/images/arrow.svg" alt="menu icon">
+              О нас
+            </button>
+
+          </div>
+
+        </div>
+
+        <div class="home-right">
+
+          <img src="./assets/images/food1.png" alt="food image" class="food-img food-1" width="200" loading="lazy">
+          <img src="./assets/images/food2.png" alt="food image" class="food-img food-2" width="200" loading="lazy">
+          <img src="./assets/images/food3.png" alt="food image" class="food-img food-3" width="200" loading="lazy">
+
+          
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-1" width="25">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-2" width="15">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-3" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-4" width="60">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-5" width="40">
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #о нас
+      -->
+
+      <section class="about" id="about">
+
+        <div class="about-left">
+
+          <div class="img-box">
+            <img src="./assets/images/about-image.jpg" alt="about image" class="about-img" width="250">
+          </div>
+
+          <div class="abs-content-box">
+            <div class="dotted-border">
+              <p class="number-lg">11</p>
+              <p class="text-md">лет <br>опыта</p>
+            </div>
+          </div>
+
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-6" width="20">
+          <img src="./assets/images/circle.svg" alt="circle shape" class="shape shape-7" width="30">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-8" width="35">
+          <img src="./assets/images/ring.svg" alt="ring shape" class="shape shape-9" width="80">
+
+        </div>
+
+        <div class="about-right">
+
+          <h2 class="section-title">Мы делаем больше, чем вы ожидаете</h2>
+
+          <p class="section-text">
+            Добро пожаловать в нашу уютную кофейню, где каждая чашка кофе становится маленьким удовольствием
+            в вашем дне. Мы - команда профессионалов, преданных искусству приготовления и сервировки кофе, 
+            созданию уютной атмосферы и ыстрече с каждым гостем как с давним другом.
+            Наша миссия - подарить вам не просто напиток, а настоящий ритуал наслаждения.
+
+            Мы тщательно отбираем кофейные зерна, следим за каждым этапом и готовим напитки с любовью и аккуратностью,
+            чтобы каждая чашка встречала вас ароматом и вкусом истинного кофейного искусства.
+            У нас вы найдете не только широкий выбор кофейных напитков - от клссического эспрессо
+            до авторских смесей и гурманских опций, но и уютные уголки для отдыхаб дружескую атмосферу и общение
+            с другими ценителями кофе. Мы стремимся создать место, где вы можете расслабиться, 
+            насладиться моментом и получить заряд положительной энергии.
+
+            Мы ценим каждого гостя и стараемся сделать ваше посещение незабываемым. 
+            Присоединяйтесь к нам в нашем уютном уголке кофейной культуры и дайте себе возможность
+            окунуться в мир ароматов и вкусов, где каждая чашка становится истинным произведением искусства.
+
+            Добро пожаловать в нашу кофейню, где кофе не просто напиток, а настоящее путешествие по миру вкусов и удовольствий.
+          </p>
+
+          <p class="section-text">
+           
+          </p>
+
+          <img src="./assets/images/signature.png" alt="signature" class="signature" width="150">
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #услуги
+      -->
+
+      <section class="services" id="services">
+
+        <div class="service-card">
+
+          <p class="card-number">01</p>
+
+          <h3 class="card-heading">Мы находимся в центре города</h3>
+
+          <p class="card-text">
+            Нас легко найти, мы сразу бросаемся в глаза.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">02</p>
+
+          <h3 class="card-heading">Только натуральные кофейный зерна</h3>
+
+          <p class="card-text">
+            Мы закупаем кофейные зерна у беспорного лидера - в Бразилии.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">03</p>
+
+          <h3 class="card-heading">Собственная быстрая доставка. 30 мининут максимум</h3>
+
+          <p class="card-text">
+            Мы доставим ваш заказ быстрее, чем кто-либо.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">04</p>
+
+          <h3 class="card-heading">Профессионалы, опытные баристы</h3>
+
+          <p class="card-text">
+            В нашем коллективе, только профессионалы, наши баристы приготовят наизысканейшее кофе только для вас.
+          </p>
+
+        </div>
+
+        <div class="service-card">
+
+          <p class="card-number">05</p>
+
+          <h3 class="card-heading">Высочайшие стандарты обслуживания</h3>
+
+          <p class="card-text">
+            Наша команда обслуживающего персонала обучена
+            и готова предложить вам выдающийся сервис, 
+            основанный на внимании к деталям, дружелюбии и профессионализме.
+          </p>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #меню
+      -->
+
+      <section class="product" id="menu">
+
+        <h2 class="section-title">Наиболее популярные виды кофе</h2>
+
+       
+
+        <div class="products-grid">
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/эспрессо.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Эспрессо</h3>
+
+                  <p class="product-price">
+                    <span class="small">₽</span>149
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Крепкий кофе, приготовленный путем прохождения горячей воды через молотое кофе под высоким давлением. Эспрессо славится интенсивным вкусом и насыщенным ароматом при достаточно маленьком объеме.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/американо.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Американо</h3>
+
+                  <p class="product-price">
+                    <span class="small">₽</span>129
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Американо готовится путем добавления горячей воды к эспрессо, создавая более мягкий и разбавленный вариант кофе с меньшей концентрацией кофеина. Это один из самых популярных видов кофе в мире, ведь вы получаете настоящий вкус кофе без излишней горчинки.  
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/ристретто.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+             
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Ристретто</h3>
+
+                  <p class="product-price">
+                    <span class="small">₽</span>173
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Ристретто – это экстремально крепкий эспрессо, приготовленный с использованием меньшего объема воды.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/флэт уайт.jpg" alt="product image" class="product-img" width="200" loading="lazy">
+
+              
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Флэт Уайт</h3>
+
+                  <p class="product-price">
+                    <span class="small">₽</span>157
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Флэт Уайт – это кофейный напиток, состоящий из двойного эспрессо и молока. Это создает более насыщенный вкус кофе.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/кортадо.png" alt="product image" class="product-img" width="200" loading="lazy">
+
+                
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Кортадо</h3>
+
+                  <p class="product-price">
+                    <span class="small">₽</span>159
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Кортадо — напиток на основе кофе и молока. Готовится из эспрессо, с последующим добавлением горячего молока, в пропорциях 1:1.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="product-card">
+
+              <div class="img-box">
+                <img src="./assets/images/лунго.png" alt="product image" class="product-img" width="200" loading="lazy">
+              </div>
+
+              <div class="product-content">
+
+                <div class="wrapper">
+                  <h3 class="product-name">Лунго</h3>
+
+                  <p class="product-price">
+                    <span class="small">₽</span>185
+                  </p>
+                </div>
+
+                <p class="product-text">
+                  Лунго – это более долгое и разбавленное эспрессо, приготовленное с использованием большего объема воды, что делает его менее интенсивным, чем обычное эспрессо.
+                </p>
+
+                <div class="product-rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <button class="btn btn-primary btn-icon">
+          <img src="./assets/images/menu.svg" alt="menu icon">
+          Полное Меню
+        </button>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #отзывы
+      -->
+
+      <section class="testimonials" id="testimonials">
+
+        <h2 class="section-title">Что говорят наши клиенты?</h2>
+
+        
+        <div class="testimonials-grid">
+
+          <div class="testimonials-card">
+
+            <h4 class="card-title">Очень вкусной!</h4>
+
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+
+            <p class="testimonials-text">
+             Это место - настоящаа находка! Очарвоательная атмосфера, великолепный кофе и радушный персонал. 
+             Я каждый раз с удовольствием возвращаюсь сюда!
+            </p>
+
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="./assets/images/testimonials1.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+              </div>
+
+              <h5 class="customer-name">Eлена52</h5>
+            </div>
+
+          </div>
+
+          <div class="testimonials-card">
+          
+            <h4 class="card-title">Пью кофе только у них</h4>
+          
+            <div class="testimonials-rating">
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+              <ion-icon name="star"></ion-icon>
+            </div>
+          
+            <p class="testimonials-text">
+             Лучший кофе в городе!
+             Всегда свежий, ароматный и качественный. 
+             Обслуживание всегда на высоте, а атмосфераделает каждое посещение незабываемым.
+             Спасибо вам за ваш труд! 
+
+            </p>
+          
+            <div class="customer-info">
+              <div class="customer-img-box">
+                <img src="./assets/images/testimonials2.jpg" alt="customer image" class="customer-img" width="100" loading="lazy">
+              </div>
+          
+              <h5 class="customer-name">Михаил22</h5>
+            </div>
+          
+          </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+
+
+
+
+   
+
+    <footer>
+
+      <div class="footer-wrapper">
+
+        <a href="#">
+          <img src="./assets/images/logo.png" alt="logo" class="footer-brand" width="20">
+        </a>
+
+        <div class="social-link">
+
+          <a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+
+          <a href="#">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+
+        </div>
+
+        <p class="copyright">&copy; Авторские права 2024. Все права защищены.</p>
+
+      </div>
+
+    </footer>
+
+  </div>
+
+
+
+
+
+  <!--
+    -джава
+  -->
+  <script src="./assets/js/foodhub.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
